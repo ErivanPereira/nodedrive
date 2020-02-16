@@ -2,4 +2,18 @@
 const fs = require("fs");
 const gdrive = require("./gdrive");
 
-gdrive.imageDownload('1sCmhuO-ubMY5tRZnLG1Flis5GBM2U7su');
+/**
+ * String nome da imagem
+ * String path da imagem
+ * Function que recebe id da imagem
+ */
+
+// gdrive.imageUpload('nome','path',(id) => { console.log(id) });
+
+/**
+ * String id da imagem
+ * String path da imagem
+ * Function que recebe id da imagem
+ */
+
+// gdrive.imageUpdate('id','path',(id) => { console.log(id) });
